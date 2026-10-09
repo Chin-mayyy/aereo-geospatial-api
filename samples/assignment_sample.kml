@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>AEREO assignment sample</name>
+    <Placemark>
+      <name>Sample survey plot</name>
+      <description>A small polygon near Bengaluru; expect approximately 12,000 square metres.</description>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              77.000,12.000,0
+              77.001,12.000,0
+              77.001,12.001,0
+              77.000,12.001,0
+              77.000,12.000,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Sample survey line</name>
+      <description>A short line; expect approximately 109 metres.</description>
+      <LineString>
+        <coordinates>77.000,12.000,0 77.001,12.000,0</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sample survey marker</name>
+      <description>A point; measurement should be null.</description>
+      <Point>
+        <coordinates>77.000,12.000,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
